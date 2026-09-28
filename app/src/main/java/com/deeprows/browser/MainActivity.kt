@@ -588,8 +588,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 layoutParams = GridLayout.LayoutParams(
-                    GridLayout.spec(GridLayout.UNSPECIFIED),
-                    GridLayout.spec(GridLayout.UNSPECIFIED, 1f)
+                    GridLayout.spec(GridLayout.UNDEFINED),
+                    GridLayout.spec(GridLayout.UNDEFINED, 1f)
                 ).apply {
                     width = 0
                     height = dp(62)
